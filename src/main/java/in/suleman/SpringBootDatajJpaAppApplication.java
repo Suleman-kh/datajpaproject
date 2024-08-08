@@ -29,7 +29,6 @@ public class SpringBootDatajJpaAppApplication {
 		bean.save(us);
 		System.out.println("hi");
 		
-		String s = 'kan';
 		context.close();
 	}
 
