@@ -22,6 +22,10 @@ public class SpringBootDatajJpaAppApplication {
 		us.setId(102);
 		us.setName("khan");
 		us.setNumber("99999999999");
+
+		us.setId(103);
+		us.setName("khan salman");
+		us.setNumber("99999997686");
 		bean.save(us);
 		System.out.println("hi");
 		
