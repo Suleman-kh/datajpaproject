@@ -28,7 +28,7 @@ public class SpringBootDatajJpaAppApplication {
 		us.setNumber("99999997686");
 		bean.save(us);
 		System.out.println("hi");
-		
+		String s = 'kan';
 		context.close();
 	}
 
